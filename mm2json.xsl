@@ -56,7 +56,7 @@
 	<xsl:if test="richcontent[@TYPE='NODE']">
 		<xsl:text>,</xsl:text>
         <xsl:value-of select="$indent1"/>
-        <xsl:text>"richcontent":"</xsl:text>
+        <xsl:text>"node":"</xsl:text>
         <xsl:call-template name="remove-formatting">
             <xsl:with-param name="param" select="richcontent[@TYPE='NODE']/html/body" />
         </xsl:call-template>
