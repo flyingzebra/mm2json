@@ -2,7 +2,7 @@
 
 <!--
   mm2json.xsl - Freddy Vandriessche
-  based on mm2json.xsl from Amal Afroz Alam (2016)
+  forked from Amal Afroz Alam (2016)
 -->
 
 <xsl:stylesheet version="1.0"
