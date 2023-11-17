@@ -1,5 +1,5 @@
 # mm2json
-Converts .mm files (only tested on Freemind 1.0.1) to .json files
+Converts .mm files (only tested on Freemind 1.0.1) to .json format
 
 # How to use ?
 
