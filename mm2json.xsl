@@ -17,9 +17,7 @@
 
     <xsl:template name="remove-formatting">
         <xsl:param name="param"/>
-        <xsl:value-of select="translate(normalize-space(translate($param,'&#x9;','')),'&#x9;','')"/>
-        <xsl:value-of select="translate(normalize-space(translate($param,'&#xa;','|')),'&#xa;','|')"/>
-        <xsl:value-of select="translate(normalize-space(translate($param,'&#xd;','')),'&#xd;','')"/>
+        <xsl:value-of select="translate(normalize-space(translate($param,'&#xd;&#xa;','|')),'&#xd;&#xa;','|')"/>
     </xsl:template>
 
   <xsl:template match="node">
