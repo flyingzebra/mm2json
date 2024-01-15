@@ -5,7 +5,7 @@ Anyone wondered how to extract usable data structures from Freemind ? Freemind h
 The **XSLT export** function will take any XSLT (*Extensible Stylesheet Language Transformations*) file as input, and shape your export file accordingly.
 In this repo, I am publishing such an XSLT file that conveniently will allow you to export your mind maps to a multi-purpose .json file.
 
-e.g. I feed the exported .json files into a Google Apps Script, to generate mind maps on-the-fly within Google slides.  My master mindmap still remains on Freemind, which I keep for editing, after which I can directly update my Google slides.  I'm doing it this way because Freemind natively does not produce presentable, let alone visually attractive mind maps.
+example use: Freemind natively does not produce presentable, let alone visually attractive mind maps.  By means of the XSLT file in this repo, the master document can be kept for editing on Freemind, after which it can be exported to .json and imported directly by a Google Apps Script in Google slides.  
 
 # How to use ?
 
